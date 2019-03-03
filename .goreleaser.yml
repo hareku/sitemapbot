@@ -4,8 +4,10 @@ before:
   hooks:
     - dep ensure
 builds:
-- env:
-  - CGO_ENABLED=0
+  -
+    env:
+      - CGO_ENABLED=0
+    main: ./cmd/sitemapbot/
 archive:
   replacements:
     darwin: Darwin
@@ -21,5 +23,5 @@ changelog:
   sort: asc
   filters:
     exclude:
-    - '^docs:'
-    - '^test:'
+      - '^docs:'
+      - '^test:'
