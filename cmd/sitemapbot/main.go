@@ -14,7 +14,7 @@ func main() {
 
 	app.Name = "sitemapbot"
 	app.Usage = "This tool crawls URLs on sitemap.xml"
-	app.Version = "0.1.0"
+	app.Version = "0.1.1"
 	app.Action = appAction
 
 	err := app.Run(os.Args)
