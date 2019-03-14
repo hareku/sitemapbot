@@ -21,6 +21,6 @@ GLOBAL OPTIONS:
 ```
 $ sitemapbot https://example.com/sitemap.xml
 2019/03/03 19:02:41 crawling started: https://example.com/sitemap.xml
- 213 / 213 [======================================================================================================================================] 100.00% 11s
-2019/03/03 19:02:53 crawling finished: https://example.com/sitemap.xml, success:213, error:0
+ 50 / 50 [=================================] 100.00% 11s
+2019/03/03 19:02:53 crawling finished: https://example.com/sitemap.xml, success:50, error:0
 ```
