@@ -4,7 +4,7 @@
 
 ## Install
 
-`go get -u github.com/hareku/sitemapbot`
+`go install github.com/hareku/sitemapbot/cmd/sitemapbot`
 
 ## Usage
 
